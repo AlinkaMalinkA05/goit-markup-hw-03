@@ -76,9 +76,11 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+}
+.logotype-header {
   padding-top: 26px;
   margin-right: 76px;
-  display: inline-block;
 }
 .logo-header {
   color: #2e2f42;
@@ -303,7 +305,8 @@ img {
 .logo-footer {
   color: #f4f4fd;
   line-height: 1.17;
-  margin-top: 100px;
   display: inline-block;
+}
+.logotype-footer {
   margin-bottom: 16px;
 }
