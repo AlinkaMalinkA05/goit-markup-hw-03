@@ -1,3 +1,4 @@
+/*=========Styles=========*/
 body {
   font-family: "Roboto", sans-serif;
   background: #fff;
@@ -9,11 +10,65 @@ ul {
 a {
   text-decoration: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*=========/Styles=========*/
+
+/*============Header=========*/
+.page-header {
+  border: 1px solid #000;
+}
+
 .main-footer {
   background: #2e2f42;
 }
 .contact-info {
   font-style: normal;
+}
+.main-nav {
+  display: flex;
+  column-gap: 76px;
+}
+.menu {
+  background-color: #ffffff;
+  display: flex;
+  column-gap: 40px;
 }
 .logo {
   color: #4d5ae5;
@@ -23,12 +78,24 @@ a {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  padding-top: 25.5px;
 }
+
 .logo-header {
   color: #2e2f42;
 }
-.menu {
-  background-color: #ffffff;
+.contact-menu {
+  display: flex;
+  column-gap: 40px;
+}
+.order-main-nav {
+  display: flex;
+  width: 1128px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-adress {
+  justify-content: space-between;
 }
 .menu-link {
   text-decoration: none;
@@ -38,6 +105,9 @@ a {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -50,7 +120,10 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
+  display: block;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .menu-link-studio:active {
   color: #404bbf;
@@ -59,16 +132,24 @@ a {
 .contact-menu-info:focus {
   color: #404bbf;
 }
+/*============/Header=========*/
+
+/*============SOLUTIONS SECTION=========*/
 .solutions-section {
   background: #2e2f42;
+  padding-bottom: 60px;
 }
 .main-title {
+  width: 496px;
   color: #fff;
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.07; /* 107.143% */
   letter-spacing: 0.02em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 .order-btn {
   color: #ffffff;
@@ -83,6 +164,16 @@ a {
 .order-btn:focus {
   background: #404bbf;
 }
+/*============/SOLUTIONS SECTION=========*/
+
+/*============ PRINCIPLES SECTION=========*/
+.text-info {
+  background-color: #ffffff;
+  padding-top: 60px;
+}
+.menu-info {
+  display: flex;
+}
 .menu-info-title {
   color: #2e2f42;
   font-size: 20px;
@@ -97,12 +188,13 @@ a {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
-.text-info {
-  background-color: #ffffff;
-}
 .menu-info-item,
 .menu-info-img {
   background-color: #ffffff;
+}
+.title-section {
+  justify-content: center;
+  display: flex;
 }
 .text-title {
   color: #2e2f42;
@@ -117,13 +209,6 @@ a {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2; /* 120% */
-  letter-spacing: 0.02em;
-}
-.menu-info-prgh {
-  color: #434455;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
 .text-title {
@@ -136,6 +221,8 @@ a {
 }
 .menu-info-app {
   background-color: #ffffff;
+  display: flex;
+  width: 1128px;
 }
 .menu-info-app-title {
   color: #2e2f42;
