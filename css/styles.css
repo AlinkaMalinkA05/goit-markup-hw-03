@@ -47,7 +47,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  margin: 0;
+  margin: 0 auto;
 }
 /*=========/Styles=========*/
 
@@ -68,7 +68,6 @@ img {
 .menu {
   background-color: #ffffff;
   display: flex;
-  column-gap: 40px;
   gap: 40px;
 }
 .logo {
@@ -82,7 +81,6 @@ img {
   padding-top: 26px;
   margin-right: 76px;
 }
-
 .logo-header {
   color: #2e2f42;
 }
