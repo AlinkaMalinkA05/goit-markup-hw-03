@@ -188,9 +188,8 @@ img {
 }
 .title-subtitle {
   padding-bottom: 32px;
-  padding-left: auto;
-  padding-right: auto;
   display: block;
+  text-align: center;
 }
 
 .menu-info-title {
