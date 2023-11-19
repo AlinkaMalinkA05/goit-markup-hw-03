@@ -52,7 +52,8 @@ img {
 
 /*============Header=========*/
 .page-header {
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #e7e9fc;
+  margin: 0 auto;
 }
 
 .contact-info {
@@ -61,11 +62,13 @@ img {
 .main-nav {
   display: flex;
   column-gap: 76px;
+  align-items: center;
 }
 .menu {
   background-color: #ffffff;
   display: flex;
   column-gap: 40px;
+  gap: 40px;
 }
 .logo {
   color: #4d5ae5;
@@ -76,6 +79,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   padding-top: 26px;
+  margin-right: 76px;
 }
 
 .logo-header {
@@ -92,6 +96,7 @@ img {
 }
 .nav-adress {
   justify-content: space-between;
+  display: flex;
 }
 .menu-link {
   text-decoration: none;
