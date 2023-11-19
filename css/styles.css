@@ -78,6 +78,7 @@ img {
   text-transform: uppercase;
   padding-top: 26px;
   margin-right: 76px;
+  display: inline-block;
 }
 .logo-header {
   color: #2e2f42;
@@ -301,4 +302,5 @@ img {
   line-height: 1.17;
   margin-top: 100px;
   display: inline-block;
+  margin-bottom: 16px;
 }
