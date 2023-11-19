@@ -180,9 +180,10 @@ img {
 }
 .menu-info {
   display: flex;
+  gap: 24px;
 }
 .menu-info-item {
-  width: calc ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 .menu-info-title {
   color: #2e2f42;
