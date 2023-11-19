@@ -55,9 +55,6 @@ img {
   border-bottom: 1px solid #000;
 }
 
-.main-footer {
-  background: #2e2f42;
-}
 .contact-info {
   font-style: normal;
 }
@@ -136,7 +133,7 @@ img {
 /*============SOLUTIONS SECTION=========*/
 .solutions-section {
   background: #2e2f42;
-  padding: 188px, 0;
+  padding: 188px 0;
 }
 .main-title {
   width: 496px;
@@ -148,6 +145,7 @@ img {
   letter-spacing: 0.02em;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 48px;
 }
 .order-btn {
   color: #ffffff;
@@ -163,6 +161,7 @@ img {
   padding-left: 32px;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
 
 .order-btn:hover,
@@ -176,8 +175,14 @@ img {
   background-color: #ffffff;
   padding-top: 120px;
 }
+.color-team {
+  background: #f4f4fd;
+}
 .menu-info {
   display: flex;
+}
+.menu-info-item {
+  width: calc ((100% - 72px) / 4);
 }
 .menu-info-title {
   color: #2e2f42;
@@ -185,6 +190,7 @@ img {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
 }
 .menu-info-prgh {
   color: #434455;
@@ -200,6 +206,8 @@ img {
 .title-section {
   justify-content: center;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 .text-title {
   color: #2e2f42;
@@ -208,6 +216,8 @@ img {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-left: auto;
+  margin-right: auto;
 }
 .menu-info-title {
   color: #2e2f42;
@@ -223,11 +233,15 @@ img {
   line-height: 1.11; /* 111.111% */
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 72px;
 }
 .menu-info-app {
   background-color: #ffffff;
   display: flex;
   margin-top: 120px;
+  flex-wrap: wrap;
 }
 .menu-info-app-title {
   color: #2e2f42;
@@ -243,8 +257,22 @@ img {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
 }
+.menu-info-img {
+  margin-bottom: 8px;
+}
+.container-footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-footer {
+  background: #2e2f42;
+  margin-top: 120px;
+  padding: 140px 0;
+  display: block;
+}
 .footer-text {
   color: #f4f4fd;
+  width: 264px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5; /* 150% */
@@ -253,4 +281,6 @@ img {
 .logo-footer {
   color: #f4f4fd;
   line-height: 1.17;
+  margin-bottom: 16px;
+  margin-top: 100px;
 }
