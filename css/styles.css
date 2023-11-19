@@ -93,10 +93,6 @@ img {
   justify-content: space-between;
   align-items: center;
 }
-.nav-adress {
-  justify-content: space-between;
-  display: flex;
-}
 .menu-link {
   text-decoration: none;
   color: #2e2f42;
@@ -132,7 +128,7 @@ img {
 .contact-menu-info:focus {
   color: #404bbf;
 }
-.contact
+
 /*============/Header=========*/
 
 /*============SOLUTIONS SECTION=========*/
