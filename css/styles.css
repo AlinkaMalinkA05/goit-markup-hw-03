@@ -52,7 +52,7 @@ img {
 
 /*============Header=========*/
 .page-header {
-  border: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .main-footer {
@@ -78,7 +78,7 @@ img {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  padding-top: 25.5px;
+  padding-top: 26px;
 }
 
 .logo-header {
@@ -90,7 +90,6 @@ img {
 }
 .order-main-nav {
   display: flex;
-  width: 1128px;
   justify-content: space-between;
   align-items: center;
 }
@@ -137,7 +136,7 @@ img {
 /*============SOLUTIONS SECTION=========*/
 .solutions-section {
   background: #2e2f42;
-  padding-bottom: 60px;
+  padding: 188px, 0;
 }
 .main-title {
   width: 496px;
@@ -149,7 +148,6 @@ img {
   letter-spacing: 0.02em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 48px;
 }
 .order-btn {
   color: #ffffff;
@@ -159,7 +157,14 @@ img {
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .order-btn:hover,
 .order-btn:focus {
   background: #404bbf;
@@ -169,7 +174,7 @@ img {
 /*============ PRINCIPLES SECTION=========*/
 .text-info {
   background-color: #ffffff;
-  padding-top: 60px;
+  padding-top: 120px;
 }
 .menu-info {
   display: flex;
@@ -222,7 +227,7 @@ img {
 .menu-info-app {
   background-color: #ffffff;
   display: flex;
-  width: 1128px;
+  margin-top: 120px;
 }
 .menu-info-app-title {
   color: #2e2f42;
