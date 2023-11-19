@@ -184,7 +184,15 @@ img {
 }
 .menu-info-item {
   width: calc((100% - 72px) / 4);
+  margin-bottom: 120px;
 }
+.title-subtitle {
+  padding-bottom: 32px;
+  padding-left: auto;
+  padding-right: auto;
+  display: block;
+}
+
 .menu-info-title {
   color: #2e2f42;
   font-size: 20px;
@@ -243,6 +251,7 @@ img {
   display: flex;
   margin-top: 120px;
   flex-wrap: wrap;
+  column-gap: 24px;
 }
 .menu-info-app-title {
   color: #2e2f42;
@@ -259,7 +268,7 @@ img {
   letter-spacing: 0.02em;
 }
 .menu-info-img {
-  margin-bottom: 8px;
+  margin-bottom: 32px;
 }
 .container-footer {
   margin-left: auto;
