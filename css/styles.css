@@ -43,8 +43,6 @@ img {
 }
 .container {
   width: 1158px;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -201,7 +199,7 @@ img {
   text-align: center;
   margin-bottom: 8px;
   row-gap: 48px;
-  padding: 32px 16px;
+  padding: 32px 0;
   border: 1px solid #e7e9fc;
   border-top: none;
 }
@@ -258,6 +256,7 @@ img {
   margin-top: 120px;
   flex-wrap: wrap;
   column-gap: 24px;
+  row-gap: 48px;
 }
 .menu-info-app-title {
   color: #2e2f42;
@@ -280,12 +279,14 @@ img {
 .container-footer {
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
 }
 .main-footer {
   background: #2e2f42;
   margin-top: 120px;
   display: block;
   padding: 100px 0;
+  margin-bottom: 16px;
 }
 .footer-text {
   color: #f4f4fd;
@@ -298,7 +299,6 @@ img {
 .logo-footer {
   color: #f4f4fd;
   line-height: 1.17;
-  margin-bottom: 16px;
   margin-top: 100px;
   display: inline-block;
 }
