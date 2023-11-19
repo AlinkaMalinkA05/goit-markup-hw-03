@@ -140,6 +140,7 @@ img {
 /*============SOLUTIONS SECTION=========*/
 .solutions-section {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .main-title {
@@ -153,7 +154,6 @@ img {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
-  padding: 188px 0;
 }
 .order-btn {
   color: #ffffff;
