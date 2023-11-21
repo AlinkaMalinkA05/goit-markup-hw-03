@@ -249,6 +249,7 @@ img {
   padding-top: 60px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 72px;
 }
 .menu-info-app {
   background-color: #ffffff;
@@ -275,12 +276,12 @@ img {
 }
 
 .portfolio-container {
-  padding: 32px 16px;
   display: block;
   row-gap: 24px;
   padding: 32px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
 }
 
 .main-footer {
