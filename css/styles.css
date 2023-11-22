@@ -180,7 +180,7 @@ img {
 /*============ PRINCIPLES SECTION=========*/
 .text-info {
   background-color: #ffffff;
-  padding: 120px 0;
+  padding: 60px 0;
 }
 .color-team {
   background: #f4f4fd;
@@ -188,7 +188,6 @@ img {
 .menu-info {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .menu-info-item {
   width: calc((100% - 72px) / 4);
@@ -245,7 +244,6 @@ img {
   text-transform: capitalize;
   justify-content: center;
   display: flex;
-  padding-top: 60px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
@@ -285,7 +283,6 @@ img {
 
 .main-footer {
   background: #2e2f42;
-  margin-top: 120px;
   padding: 100px 0;
 }
 .footer-text {
