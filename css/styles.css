@@ -60,7 +60,6 @@ img {
 }
 .main-nav {
   display: flex;
-  column-gap: 76px;
   align-items: center;
 }
 .menu {
@@ -304,9 +303,4 @@ img {
 }
 .logotype-footer {
   margin-bottom: 16px;
-}
-.container-footer {
-  margin-top: 100px;
-  margin-bottom: 100px;
-  margin-left: 156px;
 }
